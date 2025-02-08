@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "132895213768",
+    "firebase_url": "https://cheez-bro-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cheez-bro",
+    "storage_bucket": "cheez-bro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132895213768:android:b13921da43356954e2bdfd",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYyiyzSCxK4HquYIzt37Txl7bsOcgqdOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132895213768:android:6bbf7c6d8a0641f9e2bdfd",
+        "android_client_info": {
+          "package_name": "com.example.cheez_bro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYyiyzSCxK4HquYIzt37Txl7bsOcgqdOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

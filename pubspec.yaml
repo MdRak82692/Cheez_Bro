@@ -1,0 +1,73 @@
+name: cheez_bro
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^5.4.0
+  cloud_functions: ^5.3.0
+  firebase_auth: ^5.4.0
+  fl_chart: ^0.70.2
+  intl: ^0.20.1
+  firebase_core: ^3.10.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/logo.png 
+    
+  fonts:
+    - family: RobotoCondensed
+      fonts: 
+        - asset: assets/fonts/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoCondensed-BoldItalic.ttf
+        - asset: assets/fonts/RobotoCondensed-Italic.ttf
+        - asset: assets/fonts/RobotoCondensed-Regular.ttf
+
+    - family: times new roman 
+      fonts: 
+        - asset: assets/fonts/times new roman.ttf
+        - asset: assets/fonts/times new roman italic.ttf
+        - asset: assets/fonts/times new roman bold.ttf
+          weight: 700
+        - asset: assets/fonts/times new roman bold italic.ttf
+
+    - family: BebasNeue
+      fonts: 
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+          weight: 700
+
+    - family: Merriweather
+      fonts: 
+        - asset: assets/fonts/Merriweather-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Merriweather-BoldItalic.ttf
+        - asset: assets/fonts/Merriweather-Italic.ttf
+        - asset: assets/fonts/Merriweather-Regular.ttf
+
+    - family: PlayfairDisplay
+      fonts: 
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlayfairDisplay-BoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Italic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf           
